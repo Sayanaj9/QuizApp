@@ -1,0 +1,140 @@
+.quizapp{
+    overflow-y: hidden;
+    height: 100%;
+    margin: auto;
+    width:900px;
+    padding: 50px 0px;
+    @media only screen and (max-width:400px){ 
+        width:300px;
+        margin: auto;
+        padding: 30px 0px;
+       
+    }
+
+    @media only screen and (min-width:400px) and (max-width:760px){ 
+        width:380px;
+        margin: auto;
+         padding: 20px 0px;
+       
+    }
+    @media only screen and (min-width:760px) and (max-width:960px){ 
+        width:700px;
+        margin: auto;
+    }
+   
+   
+   
+
+    .heading_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        h3{
+            color:#808080
+        }
+        Button{
+            background-color: white;
+            border: 5px solid grey;
+            color: grey;
+            width: 150px;
+            height: 40px;
+            padding: 6px 0px;
+        }
+        @media only screen and (max-width:400px){ 
+            height: 50px;
+            // width: 137px;
+            
+           
+        }
+
+        @media only screen and (min-width:400px) and (max-width:760px){ 
+            height: 50px;
+           
+        }
+        @media only screen and (min-width:760px) and (max-width:960px){ 
+            height: 50px;
+        }
+       
+    }
+
+    .QA_section{
+          height:calc(100% - 50px);
+          @media only screen and (max-width:400px){ 
+            height: calc(100% - 50px);
+            overflow-y: scroll;
+            
+           
+        }
+          @media only screen and (min-width:400px) and (max-width:760px){ 
+            height: calc(100% - 50px);
+          
+            overflow-y: scroll;
+           
+        }
+         @media only screen and (min-width:760px) and (max-width:960px){ 
+             height: calc(100% - 50px);
+        }
+      
+        overflow-y: hidden;
+
+        hr{
+            margin-top: 0px;
+             margin-bottom: 2px;
+        }
+
+        .quizsection{
+            height: 80px;
+            background-color: #87ceeb;
+            margin-bottom: 10px;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: start;
+            // justify-content: space-around;
+            // padding: 10px;
+           
+            @media only screen and (min-width:760px) and (max-width:960px){ 
+                height: 60px;
+            }
+            
+            .tryagainSection{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 20px;
+                margin-left: 20px;
+                @media only screen and (min-width:760px) and (max-width:960px){ 
+                    padding: 10px;
+                }
+                          
+                Button{
+                          width: 100px;
+                          height: 40px;
+                        
+                }
+            }
+
+            p{
+                margin: 0px;
+                padding: 0px 15px;
+            }
+            .options{
+                 display: flex;
+                 align-items: center;
+                //  justify-content: space-around;
+                padding: 0px 10px;
+               
+
+            
+            Button{
+               
+                padding: 0px 5px;
+                border: 1px solid white;
+                margin-left: 10px;
+            }
+          }
+            
+        }
+    }
+
+}
